@@ -1,0 +1,12 @@
+body {
+  background-image: url('/public/assets/Background00.png');
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}

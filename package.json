@@ -1,0 +1,24 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-server": "npx esbuild app.js --outfile=dist/server.bundle.js --bundle --watch=forever --platform=node",
+    "build-game": "npx esbuild src/index.js --outfile=dist/public/game.bundle.js --bundle --watch=forever",
+    "build": "npm run build-game & npm run build-server",
+    "start": "npm run build & node dist/server.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/static": "^7.0.3",
+    "esbuild": "^0.20.2",
+    "fastify": "^4.26.2",
+    "pixi.js": "^8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0"
+  }
+}
