@@ -1,0 +1,16 @@
+How to start?
+
+```
+npm install
+```
+
+```
+npm run start
+
+```
+
+go to:
+
+```
+http://localhost:3001
+```
