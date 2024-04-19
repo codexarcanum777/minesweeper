@@ -1,15 +1,18 @@
-How to start?
+## How to start?
+
+### First install packages
 
 ```
 npm install
 ```
 
+### Second run server and build game
+
 ```
 npm run start
-
 ```
 
-go to:
+### Last step, go to site
 
 ```
 http://localhost:3001
