@@ -5,21 +5,21 @@ export const Y = 8
 export const MINES = 10
 
 export const TEXTURES = [
-  'public/assets/tile00.png',
-  'public/assets/tile20.png',
-  'public/assets/tile21.png',
-  'public/assets/tile22.png',
-  'public/assets/tile23.png',
-  'public/assets/tile24.png',
-  'public/assets/tile25.png',
-  'public/assets/tile26.png',
-  'public/assets/tile27.png',
-  'public/assets/tile28.png',
-  'public/assets/tile10.png',
-  'public/assets/tile30.png',
-  'public/assets/tile40.png',
-  'public/assets/tile50.png',
-  'public/assets/tile60.png'
+  'public/assets/Tile00.png',
+  'public/assets/Tile20.png',
+  'public/assets/Tile21.png',
+  'public/assets/Tile22.png',
+  'public/assets/Tile23.png',
+  'public/assets/Tile24.png',
+  'public/assets/Tile25.png',
+  'public/assets/Tile26.png',
+  'public/assets/Tile27.png',
+  'public/assets/Tile28.png',
+  'public/assets/Tile10.png',
+  'public/assets/Tile30.png',
+  'public/assets/Tile40.png',
+  'public/assets/Tile50.png',
+  'public/assets/Tile60.png'
 ]
 
 export const TEST_BUTTON_MESSAGE = 'Test'
